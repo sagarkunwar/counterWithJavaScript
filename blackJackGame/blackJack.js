@@ -15,7 +15,6 @@ function startGame() {
   let firstCard = getRandomCard();
   let secondCard = getRandomCard();
   sum = [firstCard + secondCard];
-
   // startGame is calling another function which is renderGame
   renderGame();
 }
@@ -44,7 +43,7 @@ function renderGame() {
 }
 
 function getRandomCard() {
-  let randomCard = Math.floor(Math.random() * 12) + 1;
+  let randomCard = Math.floor(Math.random() * 13) + 1;
   if (randomCard > 10) {
     return 10;
   } else if (randomCard === 1) {
@@ -63,8 +62,8 @@ function getRandomCard() {
 }
 
 function newCard() {
-  console.log("Drawing a new acard from the deck !! ");
-
+  console.log("Drawing a new a card from the deck !! ");
+  // if (isAlive === alive && hasblackJack === false) {
   // new creating the new card when the New cards is clicked
   let card = getRandomCard();
 
@@ -74,4 +73,5 @@ function newCard() {
   console.log(cards);
   // now after adding new card with sum then call again start game
   renderGame();
+  // }
 }

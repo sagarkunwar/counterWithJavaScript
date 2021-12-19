@@ -46,17 +46,30 @@
 
 // TRYING another example
 
-// LOGICAL OR (||) operation
+// // LOGICAL OR (||) operation
 
-let pass = true;
-let above80 = false;
+// let pass = true;
+// let above80 = false;
 
-if (pass === true || above80 === true) {
-  console.log(printResult());
-}
+// if (pass === true || above80 === true) {
+//   console.log(printResult());
+// }
 
-function printResult() {
-  return " Hey you can print your result !!! ";
-}
+// function printResult() {
+//   return " Hey you can print your result !!! ";
+// }
 
-// ======================================================================================================
+// // ================== ====================================================================================
+// Exercise of OR ||
+
+// let likesDocumentaries = true;
+// let likesStartups = true;
+
+// if (likesDocumentaries === true || likesStartups === true) {
+//   recommendedMovie();
+// }
+
+// function recommendedMovie() {
+//   console.log("Hey, click out this new film we think you will like!");
+// }
+// ==============================================================================================\
